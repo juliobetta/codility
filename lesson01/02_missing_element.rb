@@ -29,3 +29,7 @@ module MissingElement
     expected_sum - current_sum
   end
 end
+
+
+### Codility Result Link
+# https://codility.com/demo/results/demo4R7MP3-8K6
