@@ -9,19 +9,19 @@ describe 'Lesson 1' do
   end
 
   context 'MISSING ELEMENT' do
-    context 'with more than 1 elements' do
+    context 'when more than 1 elements are given' do
       it 'returns the right result' do
         expect(MissingElement.solution([2,3,1,5])).to eq 4
       end
     end
 
-    context 'with 1 element' do
+    context 'when 1 element is given' do
       it 'returns the n+1 element' do
         expect(MissingElement.solution([1])).to eq 2
       end
     end
 
-    context 'with non-array or empty array' do
+    context 'when non-array or empty array is given' do
       it 'returns 1' do
         [[], 1].each do |el|
           expect(MissingElement.solution(el)).to eq 1
