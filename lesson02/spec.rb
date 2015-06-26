@@ -1,7 +1,7 @@
 require 'rspec'
 require './lesson02/01_perm_check'
 require './lesson02/02_frog_river_one'
-require './lesson02/03_max_counters'
+require './lesson02/04_max_counters'
 
 describe 'LESSON 02' do
 
@@ -60,4 +60,12 @@ describe 'LESSON 02' do
     end
   end
 
+
+  describe '#max counters' do
+    it 'returns counters' do
+      [:solution01, :solution02].each do |solution|
+        expect(MaxCounters.send(solution, *[5, [3,4,4,6,1,4,4]])).to eq [3,2,2,4,2]
+      end
+    end
+  end
 end
