@@ -1,5 +1,5 @@
 require 'rspec'
-Dir["/lesson02/lib/*.rb"].each {|file| require file }
+Dir[File.dirname(__FILE__) + '/lib/*.rb'].each { |file| require file }
 
 describe 'LESSON 02' do
 
