@@ -1,4 +1,4 @@
-Codility.org
+Codility.org Lessons
 ===
 
 Solutions of tasks listed at [Codility.org](https://codility.com/programmers/lessons/).
