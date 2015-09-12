@@ -1,8 +1,5 @@
 require 'rspec'
-require './lesson02/01_perm_check'
-require './lesson02/02_frog_river_one'
-require './lesson02/03_missing_integer'
-require './lesson02/04_max_counters'
+Dir["/lesson02/lib/*.rb"].each {|file| require file }
 
 describe 'LESSON 02' do
 

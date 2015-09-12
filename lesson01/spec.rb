@@ -1,7 +1,5 @@
 require 'rspec'
-require './lesson01/01_frog_jmp'
-require './lesson01/02_missing_element'
-require './lesson01/03_tape_equilibrium'
+Dir["/lesson02/lib/*.rb"].each {|file| require file }
 
 describe 'Lesson 1' do
   describe '#frog_jmp' do
