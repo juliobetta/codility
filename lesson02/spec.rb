@@ -1,6 +1,7 @@
 require 'rspec'
 require './lesson02/01_perm_check'
 require './lesson02/02_frog_river_one'
+require './lesson02/03_missing_integer'
 require './lesson02/04_max_counters'
 
 describe 'LESSON 02' do
@@ -66,6 +67,15 @@ describe 'LESSON 02' do
       [:solution01, :solution02].each do |solution|
         expect(MaxCounters.send(solution, *[5, [3,4,4,6,1,4,4]])).to eq [3,2,2,4,2]
       end
+    end
+  end
+
+
+  describe '#missing integer' do
+    it 'returns missing integer' do
+      expect(MissingInteger.solution([1,3,6,4,1,2])).to eq 5
+      expect(MissingInteger.solution([5])).to eq 1
+      expect(MissingInteger.solution([1,4,7,9,1,3,5])).to eq 2
     end
   end
 end
