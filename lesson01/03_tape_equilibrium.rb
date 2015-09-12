@@ -6,15 +6,18 @@ require 'rspec'
 
 module TapeEquilibrium
   def self.solution(a)
-    return a[0] if a.length == 1
+    return a[0] if a.size == 1
 
+    sum   = a.inject(0, :+)
     left  = 0
-    right = a.inject(0, :+)
+    right = sum
     min   = nil
 
-    (0..(a.length - 1)).each do |i|
-      left  += a[i]
-      right -= a[i]
+    a.each_with_index do |value, i|
+      break if a.size - 1 == i
+
+      left  += value
+      right -= value
 
       diff = (right - left).abs
       min  = diff if min.nil? || diff < min
