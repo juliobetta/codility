@@ -8,3 +8,7 @@
 
 **02. Passing Cars**  
 [https://codility.com/programmers/task/passing_cars](https://codility.com/programmers/task/passing_cars)
+
+
+**03. MinAvgTwoSlice**  
+[https://codility.com/programmers/task/min_avg_two_slice](https://codility.com/programmers/task/min_avg_two_slice)
