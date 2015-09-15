@@ -12,3 +12,7 @@
 
 **03. MinAvgTwoSlice**  
 [https://codility.com/programmers/task/min_avg_two_slice](https://codility.com/programmers/task/min_avg_two_slice)
+
+
+**04. Genomic Range Query**  
+[https://codility.com/programmers/task/genomic_range_quert](https://codility.com/programmers/task/genomic_range_query)
