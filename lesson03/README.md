@@ -15,4 +15,4 @@
 
 
 **04. Genomic Range Query**  
-[https://codility.com/programmers/task/genomic_range_quert](https://codility.com/programmers/task/genomic_range_query)
+[https://codility.com/programmers/task/genomic_range_query](https://codility.com/programmers/task/genomic_range_query)
