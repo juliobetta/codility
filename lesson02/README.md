@@ -1,15 +1,10 @@
 ### LESSON 02
 
-[https://codility.com/programmers/lessons/2](https://codility.com/programmers/lessons/2)
+[https://codility.com/programmers/lessons/17](https://codility.com/programmers/lessons/17)
 
-**01. FrogRiverOne**  
-[https://codility.com/programmers/task/frog_river_one](https://codility.com/programmers/task/frog_river_one)
+**01. Cyclic Rotation**  
+[https://codility.com/programmers/task/cyclic_rotation/](https://codility.com/programmers/task/cyclic_rotation/)
 
-**02. PermCheck**  
-[https://codility.com/programmers/task/perm_check](https://codility.com/programmers/task/perm_check)
 
-**03. Missing Integer**  
-[https://codility.com/programmers/task/missing_integer](https://codility.com/programmers/task/missing_integer)
-
-**04. Max Counters**  
-[https://codility.com/programmers/task/max_counters](https://codility.com/programmers/task/max_counters)
+**02. Odd Occurrences in Array**  
+[https://codility.com/programmers/task/odd_occurrences_in_array/](https://codility.com/programmers/task/odd_occurrences_in_array/)
