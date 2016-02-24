@@ -26,7 +26,7 @@ RSpec.describe FrogRiverOne do
   let(:positions) { [1,3,1,4,2,3,5,4] }
 
   context 'when a valid position is given' do
-    it 'cross the river' do
+    it 'crosses the river' do
       expect(FrogRiverOne.solution(5, positions)).to eq 6
     end
   end

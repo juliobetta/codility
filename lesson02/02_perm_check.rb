@@ -35,13 +35,13 @@ RSpec.describe PermCheck do
     end
   end
 
-  context 'when is permutation' do
+  context 'when it is a permutation' do
     it 'returns 1' do
       expect(PermCheck.solution([4,1,3,2])).to eq 1
     end
   end
 
-  context 'when is not a permutation' do
+  context 'when it is not a permutation' do
     it 'returns 0' do
       expect(PermCheck.solution([4,1,3])).to eq 0
     end

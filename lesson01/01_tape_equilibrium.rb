@@ -33,20 +33,20 @@ end
 ###################################################################################################################
 
 RSpec.describe TapeEquilibrium do
-  context 'when more then 2 elements are given' do
-    it 'minimize the values' do
+  context 'when more than 2 elements are given' do
+    it 'minimizes the values' do
       expect(TapeEquilibrium.solution([3,1,2,4,3])).to eq 1
     end
   end
 
   context 'when 2 elements are given' do
-    it 'minimize values' do
+    it 'minimizes values' do
       expect(TapeEquilibrium.solution([3,1])).to eq 2
     end
   end
 
   context 'when only one element is given' do
-    it 'return the element' do
+    it 'returns the element' do
       expect(TapeEquilibrium.solution([1])).to eq 1
     end
   end
